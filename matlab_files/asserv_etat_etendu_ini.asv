@@ -1,0 +1,9 @@
+% Fichier script associé au schéma asserv_etat_etendu_sim.xls
+% Il doit être exécuté avant l'ouverture du schéma.clear variables
+close all
+% script qui définit Te, Kt, Kv, tau_m, tau_e et g
+identification_ini
+% à compléter pour obtenir le tableau L
+% avec trois composantes, définissant le
+% retour d'état avec action intégrale
+L=[4.4242   10.9239    0.7623];
